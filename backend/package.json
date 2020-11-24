@@ -1,0 +1,21 @@
+{
+  "name": "full-stack-js-week",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/server.js"
+  },
+  "repository": "https://github.com/rodrigobrunodev/full-stack-js-week.git",
+  "author": "Rodrigo Souza <ro_web1@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.17.9",
+    "@types/uuid": "^8.3.0",
+    "@types/validator": "^13.1.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5",
+    "typescript": "^4.1.2",
+    "uuid": "^8.3.1"
+  }
+}
